@@ -150,7 +150,12 @@ isActive = false;}
 
 }
 
+function resetForm(){
+    document.getElementById("myForm").reset()
+}
+
 function resetCountdown(){
+    resetForm()
     let hour = 0;
     let minute = 0;
     let second = 0;
