@@ -34,22 +34,23 @@
     <h1>Countdown</h1> 
 
     <form action="">
-        <label for="hour">Hour</label>
+        <label for="hour">Hours</label>
         <input placeholder="00" id="hour" type="number" min="0" max="24">
-
-        <label for="minute">Minute</label>
+        <br> <br>
+        <label for="minute">Minutes</label>
         <input placeholder="00" id="minute" type="number" min="0" max="59">
-
+        <br> <br>
         <label for="second">Seconds</label>
         <input placeholder="00" id="second" type="number" min="0" max="59">
 
     </form>
 
-    <br>
+   
     <div id="watchface">
         <div id="displayCanel">00:00:00</div>
     <div id="controls">
     <button id="startBtn" onclick="startCountdown()">Start</button>
+    
     <button id="stopBtn" onclick="stopCountdown()">Stop</button>
     <button id="resetBtn" onclick="resetCountdown()">Reset</button>
     

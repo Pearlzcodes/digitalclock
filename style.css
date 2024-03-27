@@ -7,7 +7,7 @@ body{
 }
 
 #displayPanel, #displayCanel{
-    font-size: 5em;
+    font-size: 3em;
     font-weight: bolder;
     font-family: monospace;
 
@@ -59,9 +59,18 @@ button{
 padding: 10px 15px;
 }
 
+@media screen and (max-width:600px) {
+#navbar{
+    flex-direction: column;
+}    
+a{
+    width: 100vw
+}
+    
+}
+
 a{
     color: white; 
-    font-size: 2em;
     text-decoration: none;
     padding: 10px 30px;
 }
